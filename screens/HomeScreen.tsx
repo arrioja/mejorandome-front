@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 
-export default function TabOneScreen() {
+export default function HomeScreen() {
   return (
     // <View style={styles.container}>
     //   <Text style={styles.title}>Tab One</Text>
@@ -12,7 +12,7 @@ export default function TabOneScreen() {
     //   <EditScreenInfo path="/screens/TabOneScreen.tsx" />
     // </View>
     <View style={{ flex: 1, paddingTop: 100, paddingLeft: 50 }}>
-      <Text>Hello, world!</Text>
+      <Text>This is the home screen</Text>
     </View>
   );
 }
